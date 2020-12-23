@@ -1,0 +1,285 @@
+@font-face{
+    font-family: 'EuroStyle';
+    src: url('../Fonts/EuroStyle.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'EurostileBold';
+    src: url('../Fonts/EurostileBold.ttf') format('truetype');
+}
+.header{
+    margin: 30px 30px 80px 80px;
+}
+.mentor{
+   margin-top: 20px;
+   margin-left: -30px;
+   font-weight: 400;
+   font-size: 17px;
+}
+li{
+    display: inline;
+}
+.contact{
+    color: #ff00e9;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 10px 20px 10px 20px;
+    border: 2px solid #ff00e9;
+    border-radius: 25px;
+    margin-left: 20px;
+    text-align: center;
+}
+.mentor a{
+    text-decoration: none;
+    color:  #ff00e9;
+}
+.mentor a:hover{
+    color: white;
+}
+.contact:hover{
+    background-color:  #ff00e9;
+    color: white;
+}
+.section-1{
+    text-align: center;
+    margin-top: 120px;
+
+}
+.skills{
+    font-family: 'EurostileBold';
+    letter-spacing: 0px;
+}
+.skills + p{
+    font-weight: lighter;
+    font-size: 25px;
+    letter-spacing: 1px;
+}
+.profile{
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+.description{
+    text-align: center;
+    background-color:   #ff00e9;
+    color: white;
+    padding: 144px 330px 288px 330px;
+}
+.description h2{
+    font-family: 'EurostileBold';
+}
+.description p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.section-2{
+    position: relative;
+    bottom: 150px;
+    border-radius: 15px;
+    border:0.5px solid rgb(228, 210, 210);
+    background-color: white;
+    margin: 0px 80px 80px 80px;
+}
+.designer{
+    padding-bottom: 30px;
+}
+.graphic{
+    text-align: center;
+    padding: 60px 50px 50px 50px;
+    border-right: 0.5px solid rgb(228, 210, 210);
+}
+.graphic h3{
+    font-family: 'EurostileBold';
+}
+.graphic p{
+    font-size: 18px;
+    font-weight: 400;
+}
+.color{
+    color: #ff00e9;
+    font-weight: 600 !important;
+}
+.mentorship{
+    border-right: none;
+}
+.experience{
+    margin-top: -100px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.experience h2{
+    font-family: 'EurostileBold';
+}
+.experience p{
+    font-size: 18px;
+}
+.experience p a{
+    text-decoration: none;
+    color:  #ff00e9;
+    font-weight: 700;
+}
+.work{
+    margin: 30px 60px 30px 60px
+}
+.work div img{
+    border-radius: 10px;
+}
+.dribbble{
+    text-align: center;
+    margin: 80px 0px 150px 0px;
+    font-weight: 600;
+}
+.dribbble a{
+    text-decoration: none;
+    color:  #ff00e9;
+    border: 2px solid  #ff00e9;
+    border-radius: 30px;
+    padding: 15px 30px 15px 30px;
+    font-size: 18px;
+}
+.dribbble a:hover{
+    background-color:  #ff00e9;
+    color: white;
+}
+.dribbble a svg{
+    height: 1.5em;
+    vertical-align: -.4em;
+}
+.collab{
+    margin-top: 100px;
+    text-align: center;
+}
+.companies{
+    margin: 40px 0px 120px 0px;
+    text-align: center;
+    padding: 0px 60px 0px 60px
+}
+.collaboration{
+    padding-bottom: 20px;
+}
+.projects{    
+    text-align: center;
+    position: relative;
+    margin: -120px 0px 80px 40px;
+}
+.background{
+    width: 30%;
+    border: 0.5px solid rgb(228, 210, 210);
+    border-radius: 15px;
+    box-shadow: 0 5px 5px 0 rgba(233, 240, 243, 0.5), 0 0 0 1px #E6ECF8;
+    background-color: white;
+    margin:0px 50px 20px -20px;
+    padding: 50px 50px 50px 50px;
+}
+.invest{
+    text-align: center;
+    margin-bottom: 150px;
+}
+.invest h3{
+    font-family: 'EurostileBold';
+    line-height: 2em;
+}
+.invest p {
+    font-size: 18px;
+}
+.invest div a{
+    color:  #ff00e9;
+    border: 2px solid  #ff00e9;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 40px 10px 40px;
+    border-radius: 30px;
+}
+.invest div a:hover{
+    background-color: #ff00e9;
+    color: white;
+}
+.reviews{
+    margin-top: 80px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.reviews h2{
+    font-family: 'EurostileBold';
+    line-height: 2em;
+}
+#feedback {
+    font-size: 18px;
+    margin-bottom: 80px;
+}
+.reviews div img{
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+#comment{
+    font-family: 'EuroStyle';
+    margin-left: 300px;
+    margin-right: 300px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 24px;
+}
+.reviwer{
+    font-family: 'EurostileBold';
+    font-size: 20px;
+    line-height: 0.5em;
+}
+.reviwer+p{
+    font-size: 14px;
+    line-height: 0.5em;
+    font-weight: lighter;
+}
+.start-with-me{
+    color: white;
+    position: relative;
+    text-align: center;
+    margin: 0px 80px -70px 80px;
+    background-color: #141c3a;
+    border-radius: 10px;
+    padding: 50px 10px 30px 10px;
+}
+.start-with-me h2{
+    font-family: 'EurostileBold';
+}
+.start-with-me p{
+    font-size: 18px;
+}
+.start-with-me a{
+    border: 2px solid #ff00e9;
+    border-radius: 30px;
+    text-decoration: none;
+    color: white;
+    vertical-align: -0.6em;
+    font-size: 18px;
+    padding: 15px 50px;
+}
+.start-with-me a:hover{
+    background-color: #ff00e9;
+    color: white;
+}
+.footer{
+    background-color: #ff00e9;
+    padding: 150px 450px 80px 450px;
+    text-align: center;
+    color: #fff;
+}
+.footerbar p{
+    color: #fff;
+    font-family: 'EuroStyle';
+    font-size: 24px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.footerbar a{
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border-radius: 100%;
+    padding: 13px;
+    margin: 0 .2rem;
+    height: 47px;
+    width: 47px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
